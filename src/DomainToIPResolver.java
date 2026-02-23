@@ -1,4 +1,4 @@
-package project.src;
+package src;
 import java.net.InetAddress;
 import java.util.*;
 public class DomainToIPResolver {
