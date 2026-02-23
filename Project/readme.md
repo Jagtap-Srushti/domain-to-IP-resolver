@@ -1,0 +1,88 @@
+# 🌐 Domain to IP Resolver (Java)
+
+A simple Java-based networking tool that resolves a domain name into its corresponding IP address using Java's `InetAddress` class.
+
+This project demonstrates basic networking concepts in Java and allows users to resolve multiple domains in a single run.
+
+---
+
+## 🚀 Features
+
+- Resolve domain names to IP addresses
+- Display:
+  - IP Address
+  - Host Name
+  - Canonical Host Name
+- Continuous loop for multiple queries
+- Exit option (`type 'exit'`)
+- Basic exception handling for invalid domains
+
+---
+
+## 🛠 Technologies Used
+
+- Java
+- `java.net.InetAddress`
+- `java.util.Scanner`
+
+---
+
+## 📂 Project Structure
+```js
+domain-to-ip-resolver
+│
+├── src/
+│   └── DomainToIPResolver.java
+│
+├── README.md
+└── .gitignore
+```
+---
+## ▶️ How to Run
+
+### 1️⃣ Compile the program
+
+javac DomainToIPResolver.java
+
+
+### 2️⃣ Run the program
+
+java DomainToIPResolver
+
+
+---
+
+## 💡 Example Usage
+
+===== DOMAIN TO IP RESOLVER =====
+Enter Website name (or type 'exit' to quit):
+google.com
+
+--------Result-------
+Website: google.com
+IP Address: 142.250.183.14
+Host Name: google.com
+Canonical Host Name: maa03s29-in-f14.1e100.net
+
+
+To exit:
+exit
+
+
+---
+
+## 📚 Concepts Covered
+
+- Java Networking Basics
+- DNS Resolution
+- Exception Handling
+- Loop Control
+- User Input Handling
+
+---
+
+## 🎯 Learning Purpose
+
+This project was built to understand how domain name resolution works in Java using built-in networking APIs.
+
+---
