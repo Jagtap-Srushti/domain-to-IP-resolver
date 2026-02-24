@@ -53,7 +53,7 @@ java DomainToIPResolver
 ---
 
 ## 💡 Example Usage
-
+```js
 ===== DOMAIN TO IP RESOLVER =====
 Enter Website name (or type 'exit' to quit):
 google.com
@@ -67,7 +67,7 @@ Canonical Host Name: maa03s29-in-f14.1e100.net
 
 To exit:
 exit
-
+```
 
 ---
 
@@ -85,4 +85,3 @@ exit
 
 This project was built to understand how domain name resolution works in Java using built-in networking APIs.
 
----
